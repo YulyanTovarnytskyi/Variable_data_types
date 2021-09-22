@@ -27,18 +27,16 @@ console.log(remainder);
 const averageSum = (sumPrise/3).toFixed(2);
 console.log(averageSum);
 
-const sale = Math.random(priseGoodTwo);
+const sale = Math.round(Math.random() * 100);
 console.log(sale);
 
-const saleTwo = Math.random(priseGoodTwo).toFixed(2);
+const saleTwo = ((100 - sale) * sumPrise / 100).toFixed(2);
 console.log(saleTwo);
 
+const twoPrise = (sumPrise/ 2).toFixed(2);  
+console.log(twoPrise);
 
 const profit = (saleTwo - (sale * sumPrise / 100)).toFixed(2);
-console.log(profit);
-
-
-
 
 
 
