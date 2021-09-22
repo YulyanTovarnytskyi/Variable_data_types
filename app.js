@@ -37,6 +37,8 @@ const twoPrise = (sumPrise/ 2).toFixed(2);
 console.log(twoPrise);
 
 const profit = (saleTwo - (sale * sumPrise / 100)).toFixed(2);
+console.log(profit);
+
 
 
 
