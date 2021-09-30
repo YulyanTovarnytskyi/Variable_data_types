@@ -17,7 +17,6 @@ console.log(downPriseSume);
 const sumRound = Math.round(downPriseSume/100)*100;
 console.log(sumRound);
 
-
 const evenSum = !(sumRound%2);
 console.log(evenSum);
 
